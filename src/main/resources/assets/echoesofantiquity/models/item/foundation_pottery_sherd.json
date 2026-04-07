@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "echoesofantiquity:item/foundation_pottery_sherd"
+  }
+}

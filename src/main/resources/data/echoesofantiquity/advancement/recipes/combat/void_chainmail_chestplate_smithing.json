@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_end_steel_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "echoesofantiquity:end_steel_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "echoesofantiquity:void_chainmail_chestplate_smithing"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_end_steel_ingot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "echoesofantiquity:void_chainmail_chestplate_smithing"
+    ]
+  }
+}

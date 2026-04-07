@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": {
+      "item": "minecraft:ender_pearl"
+    },
+    "L": {
+      "item": "minecraft:lapis_block"
+    },
+    "S": {
+      "tag": "echoesofantiquity:all_stones"
+    }
+  },
+  "pattern": [
+    "SES",
+    "SLS",
+    "SES"
+  ],
+  "result": {
+    "count": 1,
+    "id": "echoesofantiquity:waystone"
+  }
+}

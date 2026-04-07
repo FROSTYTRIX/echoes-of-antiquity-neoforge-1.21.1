@@ -1,0 +1,83 @@
+{
+  "item.echoesofantiquity.ancient_scrip": "Ancient Scrip",
+  "item.echoesofantiquity.end_steel_ingot": "End Steel Ingot",
+  "item.echoesofantiquity.void_treated_leather": "Void Treated Leather",
+  "item.echoesofantiquity.ender_boots": "Ender Boots",
+  "item.echoesofantiquity.obsidian_goggles": "Obsidian Goggles",
+  "item.echoesofantiquity.relic_blade": "Relic Blade",
+  "item.echoesofantiquity.relic_greatsword": "Relic Greatsword",
+  "item.echoesofantiquity.dragon_bow": "Dragon Bow",
+
+  "block.echoesofantiquity.placeholder": "Placeholder Block",
+  "block.echoesofantiquity.void_pedestal": "Void Pedestal",
+  "block.echoesofantiquity.void_anchor": "Void Anchor",
+  "item.echoesofantiquity.static_pearl": "Static Pearl",
+  "item.echoesofantiquity.end_steel_upgrade": "End Steel Upgrade",
+
+  "item.echoesofantiquity.void_chainmail_helmet": "Void Chainmail Helmet",
+  "item.echoesofantiquity.void_chainmail_chestplate": "Void Chainmail Chestplate",
+  "item.echoesofantiquity.void_chainmail_leggings": "Void Chainmail Leggings",
+  "item.echoesofantiquity.void_chainmail_boots": "Void Chainmail Boots",
+
+  "biome.echoesofantiquity.void_infection": "Void Infection",
+  "entity.echoesofantiquity.chorus_husk": "Chorus Husk",
+  "item.echoesofantiquity.chorus_husk_spawn_egg": "Chorus Husk Spawn Egg",
+
+
+  "itemgroup.echoesofantiquity.the_fallen_humans": "The Fallen Humans",
+
+  "item.minecraft.potion.effect.phasing_potion": "Phasing Potion",
+  "item.minecraft.splash_potion.effect.phasing_potion": "Phasing Splash Potion",
+  "item.minecraft.lingering_potion.effect.phasing_potion": "Phasing Lingering Potion",
+  "item.minecraft.tipped_arrow.effect.phasing_potion": "Arrow of Phasing",
+  "effect.echoesofantiquity.phasing": "Phasing",
+
+  "item.minecraft.potion.effect.reach_potion": "Long Arms Potion",
+  "item.minecraft.splash_potion.effect.reach_potion": "Long Arms Splash Potion",
+  "item.minecraft.lingering_potion.effect.reach_potion": "Long Arms Lingering Potion",
+  "item.minecraft.tipped_arrow.effect.reach_potion": "Arrow of Long Arms",
+  "effect.echoesofantiquity.reach": "Long Arms",
+
+
+
+
+  "itemgroup.echoesofantiquity.the_failed_clones": "The Failed Clones",
+
+  "item.echoesofantiquity.soul_siphon": "Soul Siphon",
+  "item.echoesofantiquity.soul_fragment": "Soul Fragment",
+
+
+
+
+  "itemgroup.echoesofantiquity.the_architects_tools": "The Architect's Tools",
+
+  "item.echoesofantiquity.climbing_spider_leg": "Climbing Spider Leg",
+  "item.echoesofantiquity.measuring_tape": "Measuring Tape",
+  "item.echoesofantiquity.foundation_pottery_sherd": "Foundation Pottery Sherd",
+
+  "tooltip.echoesofantiquity.measuring_tape.first_pos": "§7The first block position is : §f",
+  "tooltip.echoesofantiquity.measuring_tape.second_pos": "§7The second block position is : §f",
+  "tooltip.echoesofantiquity.measuring_tape.distance": "§7The §avector distance §7between both blocks is : §f",
+  "tooltip.echoesofantiquity.measuring_tape.manhattan_distance": "§7The §aManhattan distance §7between both blocks is : §f",
+
+  "block.echoesofantiquity.sieve": "Sieve",
+  "block.echoesofantiquity.uncrafter": "Uncrafter",
+  "block.echoesofantiquity.waystone": "Waystone",
+
+  "block.echoesofantiquity.gravity_anchor": "Gravity Anchor",
+  "sounds.echoesofantiquity.gravity_anchor_active": "Gravity Anchor Hum",
+
+  "item.echoesofantiquity.infinite_water_bucket": "Infinite Water Bucket",
+  "item.echoesofantiquity.level": "Level",
+
+  "item.echoesofantiquity.magnet_ring": "Magnet Ring",
+  "tooltip.echoesofantiquity.magnetic_ring": "§7The Magnet Ring is : ",
+  "tooltip.echoesofantiquity.magnetic_ring.attracting": "§9Attracting",
+  "tooltip.echoesofantiquity.magnetic_ring.repulsing": "§cRepulsing",
+
+
+
+
+  "tag.item.echoesofantiquity.glass_panes" : "Glass Panes",
+  "tag.item.echoesofantiquity.all_stones" : "All Stones"
+}

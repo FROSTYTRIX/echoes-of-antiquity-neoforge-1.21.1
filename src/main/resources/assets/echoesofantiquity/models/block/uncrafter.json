@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "block/dark_oak_planks",
+    "side": "echoesofantiquity:block/uncrafter_side",
+    "top": "echoesofantiquity:block/uncrafter_top"
+  }
+}

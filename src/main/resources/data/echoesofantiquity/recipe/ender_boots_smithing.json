@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "echoesofantiquity:void_treated_leather"
+  },
+  "base": {
+    "item": "minecraft:leather_boots"
+  },
+  "result": {
+    "count": 1,
+    "id": "echoesofantiquity:ender_boots"
+  },
+  "template": []
+}

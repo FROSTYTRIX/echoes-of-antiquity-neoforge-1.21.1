@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "active=false,facing=north": { "model": "echoesofantiquity:block/waystone" },
+    "active=false,facing=east":  { "model": "echoesofantiquity:block/waystone", "y": 90 },
+    "active=false,facing=south": { "model": "echoesofantiquity:block/waystone", "y": 180 },
+    "active=false,facing=west":  { "model": "echoesofantiquity:block/waystone", "y": 270 },
+
+    "active=true,facing=north": { "model": "echoesofantiquity:block/waystone_glow" },
+    "active=true,facing=east":  { "model": "echoesofantiquity:block/waystone_glow", "y": 90 },
+    "active=true,facing=south": { "model": "echoesofantiquity:block/waystone_glow", "y": 180 },
+    "active=true,facing=west":  { "model": "echoesofantiquity:block/waystone_glow", "y": 270 }
+  }
+}

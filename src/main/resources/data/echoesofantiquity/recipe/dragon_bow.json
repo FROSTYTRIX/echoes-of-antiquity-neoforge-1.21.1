@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "I": {
+      "item": "echoesofantiquity:end_steel_ingot"
+    },
+    "L": {
+      "item": "echoesofantiquity:void_treated_leather"
+    },
+    "O": {
+      "item": "minecraft:obsidian"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "s": {
+      "item": "minecraft:string"
+    }
+  },
+  "pattern": [
+    "LSs",
+    "O I",
+    "LSs"
+  ],
+  "result": {
+    "count": 1,
+    "id": "echoesofantiquity:dragon_bow"
+  }
+}

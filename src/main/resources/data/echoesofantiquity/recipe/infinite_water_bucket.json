@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "H": {
+      "item": "minecraft:heart_of_the_sea"
+    },
+    "I": {
+      "item": "echoesofantiquity:end_steel_ingot"
+    }
+  },
+  "pattern": [
+    "IHI",
+    " I "
+  ],
+  "result": {
+    "count": 1,
+    "id": "echoesofantiquity:infinite_water_bucket"
+  }
+}

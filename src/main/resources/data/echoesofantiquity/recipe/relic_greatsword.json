@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "echoesofantiquity:relic_blade"
+    },
+    "L": {
+      "item": "echoesofantiquity:void_treated_leather"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " B ",
+    " S ",
+    " L "
+  ],
+  "result": {
+    "count": 1,
+    "id": "echoesofantiquity:relic_greatsword"
+  }
+}

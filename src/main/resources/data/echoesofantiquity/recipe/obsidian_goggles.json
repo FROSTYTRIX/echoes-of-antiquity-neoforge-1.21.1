@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "G": {
+      "tag": "echoesofantiquity:glass_panes"
+    },
+    "L": {
+      "item": "echoesofantiquity:void_treated_leather"
+    },
+    "O": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "pattern": [
+    "O O",
+    "GLG",
+    "O O"
+  ],
+  "result": {
+    "count": 1,
+    "id": "echoesofantiquity:obsidian_goggles"
+  }
+}

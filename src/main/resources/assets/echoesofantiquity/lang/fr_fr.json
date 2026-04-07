@@ -1,0 +1,65 @@
+{
+  "item.echoesofantiquity.ancient_scrip": "Écrit Ancien",
+  "item.echoesofantiquity.end_steel_ingot": "Lingot d'Acier de l'End",
+  "item.echoesofantiquity.void_treated_leather": "Cuir Traité par le Néant",
+  "item.echoesofantiquity.ender_boots": "Bottes de l'Ender",
+  "item.echoesofantiquity.obsidian_goggles": "Lunettes d'Obsidienne",
+  "item.echoesofantiquity.relic_blade": "Lame de Relique",
+  "item.echoesofantiquity.relic_greatsword": "Espadon de Relique",
+  "item.echoesofantiquity.dragon_bow": "Arc de Dragon",
+  "item.echoesofantiquity.end_steel_upgrade": "Amélioration en Acier de l'End",
+
+  "item.echoesofantiquity.void_chainmail_helmet": "Casque en Mailles du Néant",
+  "item.echoesofantiquity.void_chainmail_chestplate": "Plastron en Mailles du Néant",
+  "item.echoesofantiquity.void_chainmail_leggings": "Jambières en Mailles du Néant",
+  "item.echoesofantiquity.void_chainmail_boots": "Bottes en Mailles du Néant",
+
+  "block.echoesofantiquity.placeholder": "Bloc de Substitution",
+  "block.echoesofantiquity.void_pedestal": "Piédestal du Néant",
+  "block.echoesofantiquity.void_anchor": "Ancre du Vide",
+  "item.echoesofantiquity.static_pearl": "Perle Statique",
+
+  "itemgroup.echoesofantiquity.the_fallen_humans": "Les Humains Déchus",
+
+  "item.minecraft.potion.effect.phasing_potion": "Potion de Déphasage",
+  "item.minecraft.splash_potion.effect.phasing_potion": "Potion de Déphasage Jetable",
+  "item.minecraft.lingering_potion.effect.phasing_potion": "Potion de Déphasage Persistante",
+  "item.minecraft.tipped_arrow.effect.phasing_potion": "Flèche de Déphasage",
+  "effect.echoesofantiquity.phasing": "Déphasage",
+
+  "item.minecraft.potion.effect.reach_potion": "Potion de Bras Longs",
+  "item.minecraft.splash_potion.effect.reach_potion": "Potion de Bras Longs Jetable",
+  "item.minecraft.lingering_potion.effect.reach_potion": "Potion de Bras Longs Persistante",
+  "item.minecraft.tipped_arrow.effect.reach_potion": "Flèche de Bras Longs",
+  "effect.echoesofantiquity.reach": "Bras Longs",
+
+  "itemgroup.echoesofantiquity.the_failed_clones": "Les Clones Ratés",
+
+  "item.echoesofantiquity.soul_siphon": "Siphon d'Âmes",
+  "item.echoesofantiquity.soul_fragment": "Fragment d'Âme",
+
+  "itemgroup.echoesofantiquity.the_architects_tools": "Les Outils de l'Architecte",
+
+  "item.echoesofantiquity.climbing_spider_leg": "Patte d'Araignée Grimpante",
+  "item.echoesofantiquity.foundation_pottery_sherd": "Tesson de Poterie de Fondation",
+  "item.echoesofantiquity.magnet_ring": "Anneau Magnétique",
+  "tooltip.echoesofantiquity.magnetic_ring": "§7L'Anneau Magnétique est : ",
+  "tooltip.echoesofantiquity.magnetic_ring.attracting": "§9Attractif",
+  "tooltip.echoesofantiquity.magnetic_ring.repulsing": "§cRépulsif",
+
+  "item.echoesofantiquity.measuring_tape": "Mètre Ruban",
+  "tooltip.echoesofantiquity.measuring_tape.first_pos": "§7La position du premier bloc est : §f",
+  "tooltip.echoesofantiquity.measuring_tape.second_pos": "§7La position du second bloc est : §f",
+  "tooltip.echoesofantiquity.measuring_tape.distance": "§7La §adistance vectorielle §7entre les deux blocs est : §f",
+  "tooltip.echoesofantiquity.measuring_tape.manhattan_distance": "§7La §adistance de Manhattan §7entre les deux blocs est : §f",
+
+  "block.echoesofantiquity.uncrafter": "Décrafteur",
+  "block.echoesofantiquity.waystone": "Pierre de Téléportation",
+  "block.echoesofantiquity.sieve": "Tamis",
+
+  "block.echoesofantiquity.gravity_anchor": "Ancre de Gravité",
+  "sounds.echoesofantiquity.gravity_anchor_active": "Bourdonnement de l'Ancre de Gravité",
+
+  "item.echoesofantiquity.infinite_water_bucket": "Seau d'Eau Infini",
+  "item.echoesofantiquity.level": "Niveau"
+}

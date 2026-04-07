@@ -1,0 +1,42 @@
+{
+  "type": "echoesofantiquity:sieve",
+  "ingredient": {"item": "minecraft:sand"},
+  "results": [
+    {
+      "item": { "id": "minecraft:bone_meal" },
+      "chance": 0.80
+    },
+    {
+      "item": { "id": "minecraft:flint" },
+      "chance": 0.40
+    },
+    {
+      "item": { "id": "minecraft:cactus" },
+      "chance": 0.30
+    },
+    {
+      "item": { "id": "minecraft:sugar_cane" },
+      "chance": 0.15
+    },
+    {
+      "item": { "id": "minecraft:cocoa_beans" },
+      "chance": 0.07
+    },
+    {
+      "item": { "id": "minecraft:gold_nugget" },
+      "chance": 0.04
+    }
+  ],
+  "pools": [
+    {
+      "chance": 0.01,
+      "items": [
+        { "id": "minecraft:angler_pottery_sherd" },
+        { "id": "minecraft:archer_pottery_sherd" },
+        { "id": "minecraft:arms_up_pottery_sherd" },
+        { "id": "minecraft:blade_pottery_sherd" },
+        { "id": "echoesofantiquity:foundation_pottery_sherd" }
+      ]
+    }
+  ]
+}

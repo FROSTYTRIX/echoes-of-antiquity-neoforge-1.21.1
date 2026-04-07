@@ -1,0 +1,29 @@
+{
+  "values": [
+    "minecraft:grass_block",
+    "minecraft:dirt",
+    "minecraft:stone",
+    "minecraft:granite",
+    "minecraft:diorite",
+    "minecraft:andesite",
+    "minecraft:tuff",
+    "minecraft:deepslate",
+    "minecraft:acacia_leaves",
+    "minecraft:birch_leaves",
+    "minecraft:cherry_leaves",
+    "minecraft:jungle_leaves",
+    "minecraft:oak_leaves",
+    "minecraft:dark_oak_leaves",
+    "minecraft:azalea_leaves",
+    "minecraft:flowering_azalea_leaves",
+    "minecraft:mangrove_leaves",
+    "minecraft:spruce_leaves",
+    "minecraft:vine",
+    "minecraft:cave_vines",
+    "minecraft:sand",
+    "minecraft:gravel",
+    "minecraft:snow",
+    "minecraft:short_grass",
+    "minecraft:tall_grass"
+  ]
+}

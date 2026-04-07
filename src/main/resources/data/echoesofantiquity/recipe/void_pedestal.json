@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "O": {
+      "item": "minecraft:obsidian"
+    },
+    "S": {
+      "item": "echoesofantiquity:end_steel_ingot"
+    }
+  },
+  "pattern": [
+    "SOS",
+    "ODO",
+    "SOS"
+  ],
+  "result": {
+    "count": 1,
+    "id": "echoesofantiquity:void_pedestal"
+  }
+}

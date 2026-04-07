@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "echoesofantiquity:block/void_anchor_top",
+    "side": "echoesofantiquity:block/void_anchor_side"
+  }
+}

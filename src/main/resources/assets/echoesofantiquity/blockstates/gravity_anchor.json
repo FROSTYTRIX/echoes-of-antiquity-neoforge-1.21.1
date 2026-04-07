@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "active=false": { "model": "echoesofantiquity:block/gravity_anchor" },
+    "active=true": { "model": "echoesofantiquity:block/gravity_anchor_active" }
+  }
+}

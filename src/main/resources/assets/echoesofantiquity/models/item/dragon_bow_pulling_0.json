@@ -1,0 +1,6 @@
+{
+  "parent": "echoesofantiquity:item/dragon_bow",
+  "textures": {
+    "layer0": "echoesofantiquity:item/slightly_pulled_back_dragon_bow"
+  }
+}

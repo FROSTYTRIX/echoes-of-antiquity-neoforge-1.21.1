@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "echoesofantiquity:end_steel_ingot"
+  },
+  "base": {
+    "item": "minecraft:chainmail_leggings"
+  },
+  "result": {
+    "count": 1,
+    "id": "echoesofantiquity:void_chainmail_leggings"
+  },
+  "template": {
+    "item": "echoesofantiquity:end_steel_upgrade"
+  }
+}
