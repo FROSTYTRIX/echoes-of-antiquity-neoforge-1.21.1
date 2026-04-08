@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.frostytrix.echoesofantiquity.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "EndermanSeeingMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

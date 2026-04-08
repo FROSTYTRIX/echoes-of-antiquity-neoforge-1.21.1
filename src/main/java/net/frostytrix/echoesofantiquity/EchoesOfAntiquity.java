@@ -1,31 +1,35 @@
 package net.frostytrix.echoesofantiquity;
 
+import com.mojang.logging.LogUtils;
 import net.frostytrix.echoesofantiquity.block.ModBlocks;
+import net.frostytrix.echoesofantiquity.block.entity.ModBlockEntities;
+import net.frostytrix.echoesofantiquity.component.ModDataComponentTypes;
+import net.frostytrix.echoesofantiquity.effect.ModEffects;
+import net.frostytrix.echoesofantiquity.item.ModArmorMaterials;
 import net.frostytrix.echoesofantiquity.item.ModCreativeModeTabs;
 import net.frostytrix.echoesofantiquity.item.ModItems;
-import org.slf4j.Logger;
-
-import com.mojang.logging.LogUtils;
-
+import net.frostytrix.echoesofantiquity.potion.ModPotions;
+import net.frostytrix.echoesofantiquity.screen.ModScreenHandlers;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
+import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.config.ModConfig;
-import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
+import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
-@Mod(EchoesOfAntiquityMod.MOD_ID)
-public class EchoesOfAntiquityMod {
+@Mod(EchoesOfAntiquity.MOD_ID)
+public class EchoesOfAntiquity {
     public static final String MOD_ID = "echoesofantiquity";
     public static final Logger LOGGER = LogUtils.getLogger();
 
     // The constructor for the mod class is the first code that is run when your mod is loaded.
     // FML will recognize some parameter types like IEventBus or ModContainer and pass them in automatically.
-    public EchoesOfAntiquityMod(IEventBus modEventBus, ModContainer modContainer) {
+    public EchoesOfAntiquity(IEventBus modEventBus, ModContainer modContainer) {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
         // Register ourselves for server and other game events we are interested in.
@@ -36,7 +40,12 @@ public class EchoesOfAntiquityMod {
 
         ModItems.ITEMS.register(modEventBus);
         ModBlocks.BLOCKS.register(modEventBus);
-
+        ModArmorMaterials.ARMOR_MATERIALS.register(modEventBus);
+        ModDataComponentTypes.DATA_COMPONENT_TYPES.register(modEventBus);
+        ModEffects.registerEffects(modEventBus);
+        ModPotions.POTIONS.register(modEventBus);
+        ModBlockEntities.BLOCK_ENTITIES.register(modEventBus);
+        ModScreenHandlers.MENUS.register(modEventBus);
 
 
 
