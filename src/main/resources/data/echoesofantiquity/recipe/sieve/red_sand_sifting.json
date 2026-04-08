@@ -1,21 +1,23 @@
 {
   "type": "echoesofantiquity:sieve",
-  "ingredient": {"item": "minecraft:red_sand"},
+  "ingredient": {
+    "item": "minecraft:red_sand"
+  },
   "results": [
     {
-      "item": { "id": "minecraft:redstone" },
+      "item": "minecraft:redstone",
       "chance": 0.40
     },
     {
-      "item": { "id": "minecraft:dead_bush" },
+      "item": "minecraft:dead_bush",
       "chance": 0.15
     },
     {
-      "item": { "id": "minecraft:raw_gold" },
+      "item": "minecraft:raw_gold",
       "chance": 0.05
     },
     {
-      "item": { "id": "minecraft:nether_wart" },
+      "item": "minecraft:nether_wart",
       "chance": 0.02
     }
   ],
@@ -23,10 +25,10 @@
     {
       "chance": 0.01,
       "items": [
-        { "id": "minecraft:miner_pottery_sherd" },
-        { "id": "minecraft:prize_pottery_sherd" },
-        { "id": "minecraft:brewer_pottery_sherd" },
-        { "id": "minecraft:plenty_pottery_sherd" }
+        "minecraft:miner_pottery_sherd",
+        "minecraft:prize_pottery_sherd",
+        "minecraft:brewer_pottery_sherd",
+        "minecraft:plenty_pottery_sherd"
       ]
     }
   ]

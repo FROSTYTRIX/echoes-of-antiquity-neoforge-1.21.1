@@ -6,6 +6,7 @@ import net.frostytrix.echoesofantiquity.block.entity.renderer.SieveBERenderer;
 import net.frostytrix.echoesofantiquity.block.entity.renderer.VoidPedestalBERenderer;
 import net.frostytrix.echoesofantiquity.item.ModItems;
 import net.frostytrix.echoesofantiquity.screen.ModScreenHandlers;
+import net.frostytrix.echoesofantiquity.screen.custom.SieveScreen;
 import net.frostytrix.echoesofantiquity.screen.custom.UncrafterScreen;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
@@ -48,5 +49,6 @@ public class ModClientEvents {
     @SubscribeEvent
     public static void registerScreens(RegisterMenuScreensEvent event) {
         event.register(ModScreenHandlers.UNCRAFTER_SCREEN_HANDLER.get(), UncrafterScreen::new);
+        event.register(ModScreenHandlers.SIEVE_SCREEN_HANDLER.get(), SieveScreen::new);
     }
 }

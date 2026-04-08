@@ -9,7 +9,10 @@ import net.frostytrix.echoesofantiquity.item.ModArmorMaterials;
 import net.frostytrix.echoesofantiquity.item.ModCreativeModeTabs;
 import net.frostytrix.echoesofantiquity.item.ModItems;
 import net.frostytrix.echoesofantiquity.potion.ModPotions;
+import net.frostytrix.echoesofantiquity.recipe.ModRecipes;
 import net.frostytrix.echoesofantiquity.screen.ModScreenHandlers;
+import net.frostytrix.echoesofantiquity.sound.ModSounds;
+import net.frostytrix.echoesofantiquity.util.ModTags;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.ModContainer;
@@ -46,6 +49,9 @@ public class EchoesOfAntiquity {
         ModPotions.POTIONS.register(modEventBus);
         ModBlockEntities.BLOCK_ENTITIES.register(modEventBus);
         ModScreenHandlers.MENUS.register(modEventBus);
+        ModRecipes.TYPES.register(modEventBus);
+        ModSounds.SOUND_EVENTS.register(modEventBus);
+
 
 
 
